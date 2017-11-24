@@ -8,3 +8,13 @@ disableKinds = ["home"]
 
 [outputs]
   page = ["HTML"]
+
+# Setting from Hugo document use for change file extension of HTML output to .htm
+[mediaTypes]
+  [mediaTypes."text/html"]
+  suffix = "htm"
+
+# Redefine HTML to update its media type.
+[outputFormats]
+  [outputFormats.HTML]
+  mediaType = "text/html"
