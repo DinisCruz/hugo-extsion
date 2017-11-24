@@ -2,5 +2,9 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
+# My Setting
+uglyURLs = true
+disableKinds = ["home"]
+
 [outputs]
   page = ["HTML"]
