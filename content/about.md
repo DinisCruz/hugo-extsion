@@ -5,3 +5,5 @@ draft: flase
 ---
 
 ## About Page
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales felis ac augue finibus eleifend.
